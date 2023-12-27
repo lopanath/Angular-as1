@@ -1,0 +1,146 @@
+body {
+  background-color: #550505;
+  color: white;
+  
+  font-family: Arial, sans-serif;
+margin-right: 300px;
+margin-left: 300px;
+
+
+
+
+
+}
+
+header {
+  background-color: rgb(73, 0, 0);
+  
+  text-align: center;
+  display: flex;
+
+
+
+}
+
+
+header img {
+  width: 100px; /* adjust the size as needed */
+  height: auto;
+
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.social-icons img {
+  border-radius: 50%;
+  margin: 10px;
+  width:30px;
+  height:40px;
+
+}
+
+nav {
+  background-color:white;
+
+  text-align:left;
+  
+
+  
+  
+}
+
+nav a {
+  color:white;
+ text-decoration: none;
+  padding: 10px 20px;
+ 
+  display:inline-block;
+  border-color:black;
+  background-color:darkslategrey;
+  
+}
+
+nav a:hover {
+  background-color: white;
+  color:black;
+  
+}
+
+.banner {
+  width: 100%;
+  height: 230px; /* adjust the height as needed */
+  background-image: url('images/banner1.png'); /*replace with your image*/
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.content {
+  display: flex;
+  background-color:white;
+  color:black;
+ 
+}
+
+.intro, .campus-life {
+  flex: 1;
+  padding: 0px;
+  padding-right:20px;
+  padding-left:20px;
+
+}
+
+.intro img, .campus-life img {
+  border-radius: 10px;
+
+  float: left; 
+  margin: 5px; 
+  width: 200px;
+  height:100px;
+}
+.intro p, .campus-life p {
+  text-align: justify; 
+font-size: 15px; 
+
+}
+
+
+footer {
+  background-color: #333;
+  
+  text-align: center;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  height:26px;
+
+padding-top:5px;
+
+
+         
+
+}
+#i1
+{
+  
+  padding-right:50px;
+}
+#i2
+{
+  
+  padding-right:260px;
+  
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#i3
+{
+
+  margin-top:15px;
+  
+  width:300px;
+  height:15px
+ 
+}
